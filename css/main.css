@@ -1,22 +1,166 @@
-
 /**
 * -------------
 * Global Styles
 * -------------
 */
-
 body {
-  /* Default font family and font color */
+  font-family: 'Poppins', sans-serif;
 }
 
 p, li, textarea, label, input, select {
   /* Default font size and line height */
 }
 
+.header-title {
+  margin: 8px 0;
+  padding: 15px;
+  background-color: #fcce00bd;
+  font-size: 88px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.header-subtitle {
+  margin: 8px 0;
+  padding: 15px;
+  font-size: 38px;
+  background-color: #ff6b00bd;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.header-stripe--red {
+  height: 32px;
+  background-color: #e02020bd;
+  margin: 8px 0 0;
+}
+
+.header-stripe--purple {
+  height: 16px;
+  background-color: #b620e0bd;
+  margin: 8px 0 0;
+}
+
+.header-stripe--blue {
+  height: 8px;
+  background-color: #6236ffbd;
+  margin: 8px 0 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 40px;
+}
+.sub-title {
+  text-align: center;
+  font-size: 24px;
+ font-weight: bold;
+  color: black;
+}
+.colonnes {
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.bloc_texte {
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+}
+
+.bloc_photo {
+    flex-basis: 0;
+    flex-grow: 1;
+    background-image: url(../img/bg-yellow.png);
+    text-align: right;
+
+  }
+
+  .photo-ordinateur {
+    mix-blend-mode: darken;
+  }
+  .introduction {
+  font-family: Poppins;
+  font-size: 16px;
+  text-align: justify;
+  padding-right: 48px;
+  color: black;
+  }
 
 
+  .colonnes2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-items: flex-start;
+  }
+
+  .bloc_borne-arcade {
+    flex-basis: 0;
+    flex-grow: 1;
+    background-image: url(../img/bg-orange.png);
+    text-align: left;
+  }
+
+
+  .borne-arcade {
+    mix-blend-mode: darken;
+  }
+
+  .bloc_texte-arcade {
+    flex-basis: 0;
+    flex-grow: 1;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .titre-arcade {
+    text-align: center;
+    font-size: 24px;
+   font-weight: bold;
+    color: black;
+  }
+
+  .texte-arcade {
+   font-size: 16px;
+   text-align: justify;
+   padding-right: 48px;
+   color: black;
+  }
+.bouton1 {
+  width: 185px;
+    height: 48px;
+    margin: 30px 31px 22px 455px;
+    padding: 10px 36px;
+    border-radius: 15px;
+    border: solid 4px;
+    font-size: 20px;
+  font-weight: bold;
+  color: #fcce00;
+  text-decoration: none;
+}
+.bouton2 {
+    width: 185px;
+      height: 48px;
+      margin: 30px 31px 22px 455px;
+      padding: 10px 36px;
+      border-radius: 15px;
+      border: solid 4px;
+      font-size: 20px;
+    font-weight: bold;
+    color: #ff6b00;
+    text-decoration: none;
+}
 h1 {
-   /* Default font, size, and margins */
+  /* Default font, size, and margins */
 }
 
 h2 {
@@ -39,7 +183,6 @@ h6 {
   /* Default font, size, and margins */
 }
 
-
 a {
   /* Link color */
 }
@@ -48,16 +191,11 @@ a:hover {
   /* Link color on mouse over */
 }
 
-
 /**
 * ------
 * Layout
 * ------
 */
-
-
-
-
 /**
 * ----------
 * Components
